@@ -85,6 +85,10 @@ bangers = [
     ['1chdNlzpfhb0j9ZdBX7uZE', '140'],
     ['29Jv6cwQUdFMEjQCoQvdb5', 'jungle']
 ]
-rand = bangers[Math.round(Math.random() * bangers.length)]
-spotify.src = 'https://open.spotify.com/embed/track/' + rand[0]
-banger_txt.innerHTML = `here's a free, handpicked, ${rand[1]} banger for you`
+
+function chooseRandSong() {
+    rand = bangers[Math.round(Math.random() * bangers.length)]
+    spotify.src = 'https://open.spotify.com/embed/track/' + rand[0]
+    banger_txt.innerHTML = `here's a free ${rand[1]} banger for you`
+}
+chooseRandSong()

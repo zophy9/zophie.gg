@@ -272,6 +272,16 @@ h1 {
     transform: scale(0.9) translateX(-2rem);
 }
 
+.nuhuh {
+    color: rgb(174, 174, 174);
+    margin-top: 7em;
+    margin-left: 1em;
+}
+
+.nuhuh:hover {
+    text-decoration: underline;
+}
+
 .undertext {
     height: 2vh;
     width: 100%;
