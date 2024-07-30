@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Gunsan;
+    src: url("assets/Gunsan.otf");
+    font-weight: 500;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+
+}
+
+*::selection {
+    color: black !important;
+    background: rgb(231, 231, 231) !important;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.header {
+    width: 100%;
+    height: 6rem;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    white-space: nowrap;
+}
+
+.header>* {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+.header .left {
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .right {
+    float: right;
+    justify-content: center;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+
+    font-size: 0.5rem !important;
+    margin-left: 2rem;
+}
+
+.header a:hover {
+    text-decoration: underline 0.15rem;
+}
+
+.header a h1 {
+    font-size: 1.5rem !important;
+}
+
+.header img {
+    height: 3rem;
+}
+
+.zophie {
+    margin-left: 2rem;
+    margin-right: 10rem;
+    color: black;
+
+}
+
+.zophie .sub {
+    color: rgb(68, 68, 68);
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.live {
+    width: 100%;
+    height: 2rem;
+    /*background-color: #6441a5;*/
+    background-color: #4aaebb;
+
+
+    color: white;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.live div {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    animation: 'scroll' 100s linear infinite;
+}
+
+.live p {
+    margin-left: 100vw;
+}
+
+.live *:hover {
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+
+
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .left {
+    float: left;
+    width: 50%;
+
+}
+
+.intro {
+    width: 100%;
+    margin-top: 4rem;
+
+    text-align: left;
+
+    color: white;
+}
+
+.intro h1 {
+    margin-left: 4rem;
+    line-height: 1;
+}
+
+.intro h2 {
+    margin-left: 4rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.intro h3 {
+    margin-left: 4rem;
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+
+.container .right {
+    float: right;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.sets {
+    width: 444px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    overflow: hidden;
+
+}
+
+.scroll-div {
+    display: grid;
+    float: left;
+    margin-left: 300%;
+
+    transform: translateX(0);
+    transition: transform 1s;
+}
+
+.scroll-div * {
+    grid-row: 1;
+}
+
+.sets-buttons {
+    margin-top: 1rem;
+    width: 444px;
+}
+
+.sets-buttons * {
+    background-color: transparent !important;
+    border: none !important;
+    color: white;
+    font-size: 1rem;
+}
+
+.sets-buttons *:hover {
+    text-decoration: underline;
+}
+
+.sets-buttons .l {
+    float: left;
+    margin-left: 1rem;
+}
+
+.sets-buttons .r {
+    float: right;
+    margin-right: 1rem;
+}
+
+.soundcloud {
+    box-shadow: 0.2rem 0.2rem 0px 0.2em #4aaebb;
+}
+
+.yt-logo {
+    width: 100px;
+    transition: width 1s;
+}
+
+.yt-logo:hover {
+    width: 110px;
+}
+
+#twitch-embed {
+    margin-top: 2rem;
+}
+
+.banger {
+    width: 100%;
+
+    color: white;
+}
+
+.banger h1 {
+    margin-top: 3em;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+.spotify {
+    transform: scale(0.9) translateX(-2rem);
+}
+
+.undertext {
+    height: 2vh;
+    width: 100%;
+
+    margin-top: 4rem;
+
+    text-align: center;
+    color: rgb(36, 36, 36);
+}

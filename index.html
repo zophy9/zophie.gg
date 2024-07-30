@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <h1 class="zophie">zophie<span class="sub">(also zophy)</span></h1>
+        </div>
+        <div class="right">
+            <a href="https://vrchat.com/home/user/usr_4edc62fd-d01b-44cb-85a6-411e66b7606f" target="_blank">
+                <h1>VRC</h1>
+            </a>
+            <a href="https://x.com/zophyvr" target="_blank">
+                <h1>X</h1>
+            </a>
+            <a href="https://youtube.com/@zkp" target="_blank">
+                <h1>YT</h1>
+            </a>
+            <a href="https://twitch.tv/zophyvr" target="_blank">
+                <h1>.TV</h1>
+            </a>
+            <a href="https://www.instagram.com/zophymusic" target="_blank">
+                <h1>IN</h1>
+            </a>
+            <a href="mailto:zophy9@gmail.com" target="_blank">
+                <h1>BOOK ME</h1>
+            </a>
+        </div>
+    </div>
+    <div class="live">
+        <div>
+            <p>jungle is pretty cool</p>
+            <p>i uh dj sometimes</p>
+            <p>:3</p>
+            <p>vrdj tooo</p>
+            <p>i like ukg + jungle + dnb + uk dub</p>
+            <p>...</p>
+            <p>im out of stuff..</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="intro">
+                <h1>hihi i'm zophie,</h1>
+                <h2>i like to dj and play vrchat.</h2>
+                <h3>check out some of my stuff!</h3>
+                <h3 style="color:#2a6168">^^^^^^^^^^^^^^^^^^^^^^^^</h3>
+            </div>
+            <div class="banger">
+                <h1 id="banger-txt">here's a free handpicked banger for you</h1>
+                <iframe class="spotify" style="border-radius:12px; margin-left: 4rem;" src="" width="70%" height="152"
+                    frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+            </div>
+
+        </div>
+        <div class="right">
+            <div id="twitch-embed"></div>
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: 444,
+                    height: 250,
+                    channel: "zophyvr",
+                    layout: 'video',
+                    // Only needed if this page is going to be embedded on other websites
+                    parent: ["embed.example.com", "othersite.example.com"]
+                });
+            </script>
+            <div class="sets">
+                <div class="scroll-div">
+                    <a class="soundcloud" href="https://www.youtube.com/watch?v=pzfl2XjXdwY" target="_blank"
+                        style="display:flex;justify-content:center;align-items:center;width:444px;height:250px;background-image: url('assets/yt_thumb_1.jpg');background-size: cover;background-position: center center;">
+                        <img class="yt-logo" src="assets/yt-logo.webp">
+                    </a>
+                    <a class="soundcloud" href="https://www.youtube.com/watch?v=bVJ4kFuT7lg" target="_blank"
+                        style="display:flex;justify-content:center;align-items:center;width:444px;height:250px;background-image: url('assets/yt_thumb_2.jpg');background-size: cover;background-position: center center;">
+                        <img class="yt-logo" src="assets/yt-logo.webp">
+                    </a>
+                    <iframe class="soundcloud" width="444" height="250" scrolling="no" frameborder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1876723782&color=%234aaebb&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+                    <iframe class="soundcloud" width="444" height="250" scrolling="no" frameborder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1848327261&color=%234aaebb&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+                </div>
+                <div class="sets-buttons">
+                    <button onclick="back()" class="l">back</button>
+                    <button onclick="next()" class="r">next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="undertext">made with love in the middle of the night - zophie</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
