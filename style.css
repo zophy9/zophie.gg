@@ -203,7 +203,7 @@ h1 {
 .scroll-div {
     display: grid;
     float: left;
-    margin-left: 300%;
+    margin-left: 400%;
 
     transform: translateX(0);
     transition: transform 1s;
